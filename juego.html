@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página DYSV</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src = "js/bootstrap.bundle.min.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.min.js"></script>
+</head>
+
+<body style="margin: 0; background-color: black;">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="img/principal.jpg" alt="" width="7%"></img>
+          <a class="navbar-brand"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="autobiografia.html">Autobiografía</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="ejercicios.html">Ejercicios</a>
+              </li>
+              <li class="nav-item">
+                <li class="nav-item">
+                  <a class="nav-link"  href="juego.html">Juego</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="juego2.html">Juego2</a>
+                    </li>
+                  <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <canvas id="canvas" width="500" height="500"></canvas>
+        <div style="display:none;">
+            <img id="animation" src="animations.gif" width="140" height="20">
+            <img id="ghosts" src="ghost.png" width="140" height="20">
+        </div>
+        <script src="ghost.js"></script>
+        <script src="pacman.js"></script>
+        <script src="game.js"></script>
+ 
+</body>
+</html>
